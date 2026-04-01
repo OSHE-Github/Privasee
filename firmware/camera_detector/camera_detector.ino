@@ -156,20 +156,27 @@ void loop() {
       Serial.println("NOTHINH IN QUEUE. THIS SHOULDNT RUN. EVER.");
       return;
     }
+    logPacket(pkt_info);
+    printPacket(pkt_info);
+  }
+  
+  //Serial.println("LOOP");
+  // Serial.println();
+}
 
+void logPacket(PacketInfo pkt_info) {
+
+}
+
+void printPacket(PacketInfo pkt_info) {
     // Display Individual Packets
     Serial.print("Packet | ");
     for (int i = 0; i < 6; i++) {
       Serial.print(pkt_info.mac_addr[i], HEX);
       Serial.print(" ");
-      //logEvent((char *)pkt_info.mac_addr[i]);
     }
     Serial.print("| rssi: "); Serial.print(pkt_info.rssi); Serial.print(" length: "); Serial.print(pkt_info.length);
     Serial.println();
-  }
-  
-  //Serial.println("LOOP");
-  // Serial.println();
 }
 
 // Calibration function
