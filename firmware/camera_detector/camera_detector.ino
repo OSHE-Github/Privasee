@@ -352,7 +352,6 @@ void sniffer_callback(void* buf, wifi_promiscuous_pkt_type_t type) {
   // toggle LED
   digitalWrite(PACKET_LED, HIGH); 
   packetLED_state = millis();
-  logEvent("Packet Recieved");
 
   // Serial.print("Packet | ");
   // for (int i = 0; i < 6; i++) {
