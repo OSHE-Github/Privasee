@@ -76,51 +76,42 @@ void setup() {
 
   // find unused logfile name & save. 
   // will open/close upon each write
-  Serial.println("finding new log file");
+  Serial.println("Finding new IR log file");
   snprintf(logFile, sizeof(logFile), "/log_%02d.txt", 1);
   uint8_t i = 0;
   while (SD.exists(logFile) == 1) {
-    Serial.println("1");
     i++;
     snprintf(logFile, sizeof(logFile), "/log_%02d.txt", i);
-    Serial.println("2");
     if (i > 99) {
       Serial.println("LOGS ARE FULL. PLEASE CLEAR");
-    Serial.println("3");
       snprintf(logFile, sizeof(logFile), "/log_%02d.txt", 0);;
       break;
     }
     delay(5);
   }
-  Serial.println("log file found");
+  Serial.println("empty IR log file found");
 
   // find second log file
-  Serial.println("finding new packet log file");
+  Serial.println("Finding new packet log file");
   snprintf(packetLog, sizeof(packetLog), "/packet_%02d.txt", 1);
   i = 0;
   while (SD.exists(packetLog) == 1) {
-    Serial.println("1a");
     i++;
     snprintf(packetLog, sizeof(packetLog), "/packet_%02d.txt", i);
-    Serial.println("2a");
     if (i > 99) {
       Serial.println("LOGS ARE FULL. PLEASE CLEAR");
-    Serial.println("3a");
       snprintf(packetLog, sizeof(packetLog), "/packet_%02d.txt", 0);;
       break;
     }
     delay(5);
   }
-  Serial.println("log file found");
+  Serial.println("Packet log file found");
 
   // Write Header
   File file = SD.open(logFile, FILE_WRITE);
   if (file) {
-    if (file.println("time,value")) // CSV header
+    if (!file.println("time,value")) // CSV header
     {
-      Serial.println("Headers written");
-    }
-    else {
       Serial.println("Failed to write headers");
     }
     file.flush();
@@ -132,7 +123,7 @@ void setup() {
   Serial.println(" created and initailized");
 
   // Calibrate IR
-  Serial.println("Starting calibration...");
+  Serial.println("Starting IR calibration...");
   calibrateIR();
 
   // Wifi Boilerplate
