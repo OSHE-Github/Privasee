@@ -18,6 +18,7 @@ int miso = 21;
 int mosi = 20;
 int cs = 19;
 char logFile[32];
+char packetLog[32];
 
 // Globals
 int baseline = 0;
@@ -87,6 +88,25 @@ void setup() {
       Serial.println("LOGS ARE FULL. PLEASE CLEAR");
     Serial.println("3");
       snprintf(logFile, sizeof(logFile), "/log_%02d.txt", 0);;
+      break;
+    }
+    delay(5);
+  }
+  Serial.println("log file found");
+
+  // find second log file
+  Serial.println("finding new packet log file");
+  snprintf(packetLog, sizeof(packetLog), "/packet_%02d.txt", 1);
+  i = 0;
+  while (SD.exists(packetLog) == 1) {
+    Serial.println("1a");
+    i++;
+    snprintf(packetLog, sizeof(packetLog), "/packet_%02d.txt", i);
+    Serial.println("2a");
+    if (i > 99) {
+      Serial.println("LOGS ARE FULL. PLEASE CLEAR");
+    Serial.println("3a");
+      snprintf(packetLog, sizeof(packetLog), "/packet_%02d.txt", 0);;
       break;
     }
     delay(5);
@@ -165,7 +185,18 @@ void loop() {
 }
 
 void logPacket(PacketInfo pkt_info) {
-
+  File file = SD.open(packetLog, FILE_APPEND);
+  if (packetLog) {
+    file.print("Packet | ");
+    for (int i = 0; i < 6; i++) {
+      file.print(pkt_info.mac_addr[i], HEX);
+      file.print(" ");
+    }
+    file.print("| rssi: "); file.print(pkt_info.rssi); file.print(" length: "); file.print(pkt_info.length);
+    file.println();
+    file.flush();
+  }
+  file.close();
 }
 
 void printPacket(PacketInfo pkt_info) {
