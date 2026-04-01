@@ -87,7 +87,7 @@ void setup() {
       snprintf(logFile, sizeof(logFile), "/log_%02d.txt", 0);;
       break;
     }
-    delay(5);
+    // delay(5);
   }
   Serial.println("empty IR log file found");
 
@@ -103,7 +103,7 @@ void setup() {
       snprintf(packetLog, sizeof(packetLog), "/packet_%02d.txt", 0);;
       break;
     }
-    delay(5);
+    // delay(5);
   }
   Serial.println("Packet log file found");
 
