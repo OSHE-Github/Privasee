@@ -7,10 +7,9 @@ There are multiple different types of cameras. Detecting with them can be done i
 # Current State
 
 The current prototype includes:
+  
   +IR Detection
-  
-  +Mac Adress Reading
-  
+  +Mac Adress Reading 
   +RF detection (?)
 # Features
 
