@@ -6,10 +6,10 @@ This Bill of Materials summarizes all components required to assemble the Privas
 
 ## Main Board Module
 
-| # | Part Name            | Indivual Cost | QTY | Total cost | Link                                                                           |
-| - | -------------------- | ------------- | --- | ---------- | ------------------------------------------------------------------------------ |
-| 1 | Micro SD Breakout	   | $7.50         | 1	 | $7.50      | https://www.digikey.com/en/products/detail/adafruit-industries-llc/254/5761230 |
-
+| # | Part Name            | Indivual Cost | QTY | Total cost | Link                                                                                        |
+| - | -------------------- | ------------- | --- | ---------- | ------------------------------------------------------------------------------------------- |
+| 1 | ESP 32 Dev C6   	   | $8            | 1	 | $8         | https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C6-DEVKITM-1-N4/18667011 |
+| 2 | Micro SD Breakout	   | $7.50         | 1	 | $7.50      | https://www.digikey.com/en/products/detail/adafruit-industries-llc/254/5761230              |
 
 **Subtotal:** $9.79
 
