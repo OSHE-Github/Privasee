@@ -13,6 +13,8 @@ The current prototype includes:
   *Mac Adress Reading 
   
   *RF detection (?)
+
+  The system operates as a standalone or works with a laptop to detect cameras
   
 # Features
 
