@@ -33,7 +33,7 @@ This Bill of Materials summarizes all components required to assemble the Privas
 | # | Part Name            | Indivual Cost | QTY | Total cost | Link                                                                                                   |
 | - | -------------------- | ------------- | --- | ---------- | ------------------------------------------------------------------------------------------------------ |
 | 1 | Photodiode           | $2.49         | 1   | $2.49      | https://www.digikey.com/en/products/detail/advanced-photonix/PDB-C134F/480578                          |
-| 2 | 25 Ohm Resistor      |               | 1   |            |                                                                                                        |
+| 2 | 25 Ohm Resistor      |               | 1   |            | https://www.digikey.com/en/products/detail/stackpole-electronics-inc/MR3FT25L0/1650256                 |
 | 3 | 100 Ohm Resistor     |               | 1   |            |                                                                                                        |
 | 4 | 1M Ohm Resistor      |               | 1   |            |                                                                                                        |
 | 5 | LM358 Op Amp         | $0.99         | 1   | $0.99      | https://www.digikey.com/en/products/detail/texas-instruments/LM358N-NOPB/6264                          |
