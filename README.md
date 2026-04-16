@@ -17,6 +17,7 @@ The current prototype includes:
   The system operates as a standalone or works with a laptop to detect cameras
   
 # Features
+## Radio Frequency
 
 # Project Structure
 
