@@ -11,18 +11,14 @@ This Bill of Materials summarizes all components required to assemble the Privas
 | 1 | ESP 32 Dev C6   	   | $8            | 1	 | $8         | https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C6-DEVKITM-1-N4/18667011            |
 | 2 | Micro SD Breakout	   | $7.50         | 1	 | $7.50      | https://www.digikey.com/en/products/detail/adafruit-industries-llc/254/5761230                         |
 | 3 | Switch           	   | $0.36         | 1	 | $0.36      | https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SLW-129956-4A-RA-N-D/24399223 |
-| 2 | Micro SD Breakout	   | $7.50         | 1	 | $7.50      | https://www.digikey.com/en/products/detail/adafruit-industries-llc/254/5761230                         |
-| 2 | Micro SD Breakout	   | $7.50         | 1	 | $7.50      | https://www.digikey.com/en/products/detail/adafruit-industries-llc/254/5761230                         |
-| 2 | Micro SD Breakout	   | $7.50         | 1	 | $7.50      | https://www.digikey.com/en/products/detail/adafruit-industries-llc/254/5761230                         |
-| 2 | Micro SD Breakout	   | $7.50         | 1	 | $7.50      | https://www.digikey.com/en/products/detail/adafruit-industries-llc/254/5761230                         |
-
-
+| 4 | 3.3 V buck booster   | $3.12         | 1	 | $3.12      | https://www.digikey.com/en/products/detail/dfrobot/DFR0568/9559258                                     |
+| 5 | AA Battery Holder	   | $1.80         | 1	 | $1.80      | https://www.digikey.com/en/products/detail/mpd-memory-protection-devices/BC2AAW/2190080                |
 
 **Subtotal:** $9.79
 
 ---
 
-## MCU Interposer
+## RF Module
 
 | Part Name                | Description           | Qty | Total Cost | Link            |
 | ------------------------ | --------------------- | --- | ---------- | --------------- |
@@ -37,7 +33,7 @@ This Bill of Materials summarizes all components required to assemble the Privas
 
 ---
 
-## Dev Board Interposer
+## IR Module
 
 | Part Name          | Description             | Qty | Total Cost | Link            |
 | ------------------ | ----------------------- | --- | ---------- | --------------- |
@@ -53,7 +49,7 @@ This Bill of Materials summarizes all components required to assemble the Privas
 
 ---
 
-## Input Boards
+## Total Modules
 
 | Part Name              | Description          | Qty | Total Cost | Link            |
 | ---------------------- | -------------------- | --- | ---------- | --------------- |
