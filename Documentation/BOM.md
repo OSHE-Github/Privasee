@@ -10,18 +10,7 @@ This Bill of Materials summarizes all components required to assemble the Privas
 
 | ------------------------ | -------------------------------- | --- | ---------- | --------------- |
 | 1 | Micro SD Breakout	   | $7.50         | 1	 | $7.50      | https://www.digikey.com/en/products/detail/adafruit-industries-llc/254/5761230 |
-| 1N5819WS                 | Reverse-current protection diode | 1   | $0.10      | `[placeholder]` |
-| AZ1117CH-3.3             | 3.3 V LDO regulator              | 1   | $0.16      | `[placeholder]` |
-| PRTR5V0U2X               | USB ESD protection               | 1   | $0.47      | `[placeholder]` |
-| USB-CB16HTBTR            | USB-C connector                  | 1   | $1.05      | `[placeholder]` |
-| 10 µF capacitors (0603)  | Decoupling capacitors            | 3   | $0.30      | `[placeholder]` |
-| 0.1 µF capacitors (0603) | Decoupling capacitors            | 4   | $0.32      | `[placeholder]` |
-| SML-D12U1WT86            | Red LED                          | 1   | $0.12      | `[placeholder]` |
-| SKQGABE010               | Button                           | 1   | $0.31      | `[placeholder]` |
-| 5.1 kΩ resistors (0603)  | Pull-up resistors                | 2   | $0.32      | `[placeholder]` |
-| 1 kΩ resistor (0603)     | LED resistor                     | 1   | $0.10      | `[placeholder]` |
-| 10 kΩ resistor (0603)    | Reset/logic pull-up              | 1   | $0.10      | `[placeholder]` |
-| DF40C-20DP-0.4V          | Board connector plug             | 2   | $1.38      | `[placeholder]` |
+
 
 **Subtotal:** $9.79
 
