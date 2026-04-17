@@ -54,6 +54,7 @@ The current prototype includes:
 | 10k Resistor   | $0.10  | 1        | $0.10      | [Link](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265) |
 | 1k Resistor    | $0.10  | 1        | $0.10      | [Link](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314) |
 | Header Pin Pack | $3.29 | 1        | $3.29      | [Link](https://www.digikey.com/en/products/detail/aries-electronics/14-0600-21/49895) |
+| Protoboard     | ~$5.00 | 1        | $5.00      | Lab Resource |
 
 # Tools Used
 
@@ -68,6 +69,22 @@ The current prototype includes:
   Solder Iron Station
   Wire Cutters
   Wire Crimpers
+
+# Assembly Instructions
+
+## RF
+
+### Antenna
+The SMA mount will be used as basis for the ground plane
+Cut two lengths of copper wire to 33mm.
+Cut longer than intended length adjustments/tuning can be made afterwords
+Solder one length of the copper wire to the signal pin forming a 90 degree angle
+Solder another length to the SMA mount leg pointing in the opposite direction of the signal pin
+
+### Board Assembly
+Using the schematic for RF assemble the parts on to the protoboard
+Minimize amount of solder used components connecting into V+
+This includes the antenna, BAT41 diode, 1nF capacitor, 1Mohm resistor, and LM358 Op amp.
 
 # Other catagories
 
