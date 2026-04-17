@@ -15,6 +15,8 @@ The current prototype includes:
   *RF detection (?)
 
   The system operates as a standalone or works with a laptop to detect cameras
+
+# Project Structure
   
 # Features
 ## Radio Frequency
@@ -38,6 +40,12 @@ The current prototype includes:
   
   <img width="743" height="458" alt="RF Results" src="https://github.com/user-attachments/assets/89dfeb80-50a0-4d19-bc6f-934acf357de4" />
 
-# Project Structure
+# Bill of Materials
+
+### RF
+|      Item      |  Cost  | Quantity | Total Cost | Source |
+| -------------- | ------ | -------- | ---------- | ------ |
+| Antenna mount  | $3.86  | 1        | $3.86      | [Link](https://www.digikey.com/en/products/detail/molex/0732511153/11305709) |
+| Copper Wire Spool   | ~$7.00 | 1   | ~$7.00     | Lab Resource |
 
 # Other catagories
