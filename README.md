@@ -59,16 +59,16 @@ The current prototype includes:
 # Tools Used
 
 ### Software
-  Arduino IDE
-  Python
-  KiCad
-  OnShape
-  Git Desktop
+  Arduino IDE  
+  Python  
+  KiCad  
+  OnShape  
+  Git Desktop  
 
 ### Hardware
-  Solder Iron Station
-  Wire Cutters
-  Wire Crimpers
+  Solder Iron Station  
+  Wire Cutters  
+  Wire Crimpers  
 
 # Assembly Instructions
 
@@ -76,15 +76,15 @@ The current prototype includes:
 
 ### Antenna
 The SMA mount will be used as basis for the ground plane
-Cut two lengths of copper wire to 33mm.
-Cut longer than intended length adjustments/tuning can be made afterwords
-Solder one length of the copper wire to the signal pin forming a 90 degree angle
-Solder another length to the SMA mount leg pointing in the opposite direction of the signal pin
+Cut two lengths of copper wire to 33mm  
+Cut longer than intended length adjustments/tuning can be made afterwords  
+Solder one length of the copper wire to the signal pin forming a 90 degree angle  
+Solder another length to the SMA mount leg pointing in the opposite direction of the signal pin  
 
 ### Board Assembly
-Using the schematic for RF assemble the parts on to the protoboard
-Minimize amount of solder used components connecting into V+
-This includes the antenna, BAT41 diode, 1nF capacitor, 1Mohm resistor, and LM358 Op amp.
+Using the schematic for RF assemble the parts on to the protoboard  
+Minimize amount of solder used components connecting into V+  
+This includes the antenna, BAT41 diode, 1nF capacitor, 1Mohm resistor, and LM358 Op amp  
 
 # Other catagories
 
