@@ -21,6 +21,8 @@ The current prototype includes:
   Radio Frequency (RF) was chosen due to increasing amount of cameras connecting to Wifi. While connected to WiFi, cameras can capture vidoo and trasmit it. This makes it detectable for as it 
   emits oscilalitng EWF waves that can be picked up. For this semester of the project, the prototype aims to target active cameras transmitting over 2.4GHz.
 
+  <img width="454" height="462" alt="image" src="https://github.com/user-attachments/assets/0c2b6646-c3a5-4613-9b5b-eb8f44e73486" />
+
 ### Antenna
   In order to start detecting signal a proper antenna is needed. The antenna will be responsible for picking up wifi signals that devices emit. In this case, the antenna must tuned to a
   resonance frequency of 2.4GHz. With proper tuning, the antenna will pick up these wifi signals more efficiently and this will result in a higher AC voltage.
@@ -34,8 +36,7 @@ The current prototype includes:
 ### Amplfication
   As mentioned earlier, amplification is needed to help create a more readable voltage. This it utilizing an LM358 Op amp in a non-inverting configuration. 
   
-  <img width="454" height="462" alt="image" src="https://github.com/user-attachments/assets/0c2b6646-c3a5-4613-9b5b-eb8f44e73486" />
-
+  <img width="743" height="458" alt="RF Results" src="https://github.com/user-attachments/assets/89dfeb80-50a0-4d19-bc6f-934acf357de4" />
 
 # Project Structure
 
