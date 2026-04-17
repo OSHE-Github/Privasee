@@ -47,5 +47,12 @@ The current prototype includes:
 | -------------- | ------ | -------- | ---------- | ------ |
 | Antenna mount  | $3.86  | 1        | $3.86      | [Link](https://www.digikey.com/en/products/detail/molex/0732511153/11305709) |
 | Copper Wire Spool   | ~$7.00 | 1   | ~$7.00     | Lab Resource |
+| SMA M TO M Adapter | $6.95 | 1     | $6.95      | [Link](https://www.amazon.com/dp/B0BWJGQC9M) |
+| BAT41 Diode    | $0.15  | 1        | $0.30      | [Link](https://www.digikey.com/en/products/detail/stmicroelectronics/BAT41/603518) |
+| 1nF Capacitor  | $0.38  | 1        | $0.38      | [Link](https://www.digikey.com/en/products/detail/kemet/C320C102K3G5TA/6656382) |
+| 1M Resistor    | $0.10  | 1        | $0.10      | [Link](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1M00/1741316) |
+| 10k Resistor   | $0.10  | 1        | $0.10      | [Link](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265) |
+| 1k Resistor    | $0.10  | 1        | $0.10      | [Link](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314) |
+| Header Pin Pack | $3.29 | 1        | $3.29      | [Link](https://www.digikey.com/en/products/detail/aries-electronics/14-0600-21/49895) |
 
 # Other catagories
