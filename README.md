@@ -55,4 +55,26 @@ The current prototype includes:
 | 1k Resistor    | $0.10  | 1        | $0.10      | [Link](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314) |
 | Header Pin Pack | $3.29 | 1        | $3.29      | [Link](https://www.digikey.com/en/products/detail/aries-electronics/14-0600-21/49895) |
 
+# Tools Used
+
+### Software
+  Arduino IDE
+  Python
+  KiCad
+  OnShape
+  Git Desktop
+
+### Hardware
+  Solder Iron Station
+  Wire Cutters
+  Wire Crimpers
+
+
 # Other catagories
+
+### RF Flaws
+A big issue with the RF side of this project revolved around a poor testing environment. The testing environment of RF was near an oscilloscope scope which constantly emitted EMF waves. These radiating waves from the oscilloscope cause the antenna on the breadboard to pick up a much stronger signal that what was expected on a 2.4ghz band. This error was caught later on in the semester and resulted in a more rushed prototype of what is currently featured above. While the concept of RF detection is proved, there are underdeveloped areas of RF which include antenna creation and op amp gain. Additionally factors such as parasitic capacitance and type of boards used were not analyzed as well.
+
+The current graph shows some post error data of the current prototype. While this does display a correlation of RF being detected, the gain actual gain is really low. This is mainly due to the BAT41 diode used which did rectify the voltage but resulted in a 0.3V drop. Due to passive antennas not outputting much voltage, there was not a large amount of rectified voltage to be amplified by the op amp. 
+
+
