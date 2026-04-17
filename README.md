@@ -69,7 +69,6 @@ The current prototype includes:
   Wire Cutters
   Wire Crimpers
 
-
 # Other catagories
 
 ### RF Flaws
