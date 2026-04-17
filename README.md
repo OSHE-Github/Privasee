@@ -18,6 +18,21 @@ The current prototype includes:
   
 # Features
 ## Radio Frequency
+  Radio Frequency (RF) was chosen due to increasing amount of cameras connecting to Wifi. While connected to WiFi, cameras can capture vidoo and trasmit it. This makes it detectable for as it 
+  emits oscilalitng EWF waves that can be picked up. For this semester of the project, the prototype aims to target active cameras transmitting over 2.4GHz.
+
+### Antenna
+  In order to start detecting signal a proper antenna is needed. The antenna will be responsible for picking up wifi signals that devices emit. In this case, the antenna must tuned to a
+  resonance frequency of 2.4GHz. With proper tuning, the antenna will pick up these wifi signals more efficiently and this will result in a higher AC voltage.
+
+### Diode Rectification
+  Achieving high AC voltage make it much easier to amplify and notice difference in detection. A limiting factor of this AC voltage is that it is operating at 2.4GHz which is much more than
+  what the LM358 can support. To amend this, a BAT41 diode was used to help rectify the AC voltage into DC voltage. Advantages of this include readable and processable voltage by the Op amp.
+  Downsides of this diode involve voltage drops which results in a weaker signal. A capacitor and resistor is needed in parallel with the rectified diode voltage output in order to “hold” the
+  DC voltage so it can be amplified by the OP Amp.
+
+### Amplfication
+  As mentioned earlier, amplification is needed to help create a more readable voltage. This it utilizing an LM358 Op amp in a non-inverting configuration. 
 
 # Project Structure
 
