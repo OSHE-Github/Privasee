@@ -33,6 +33,9 @@ The current prototype includes:
 
 ### Amplfication
   As mentioned earlier, amplification is needed to help create a more readable voltage. This it utilizing an LM358 Op amp in a non-inverting configuration. 
+  
+  <img width="454" height="462" alt="image" src="https://github.com/user-attachments/assets/0c2b6646-c3a5-4613-9b5b-eb8f44e73486" />
+
 
 # Project Structure
 
