@@ -41,59 +41,7 @@ This Bill of Materials summarizes all components required to assemble the Privas
 
 **Subtotal:** $19.81
 
----
 
-## Total Modules
-
-| Part Name              | Description          | Qty | Total Cost | Link            |
-| ---------------------- | -------------------- | --- | ---------- | --------------- |
-| 1 µF capacitors (0603) | Filtering capacitors | 4   | $0.40      | `[placeholder]` |
-| 9032 Joysticks         | Dual-axis joysticks  | 2   | $10.50     | `[placeholder]` |
-| B3F-1000 Buttons       | Momentary buttons    | 12  | $2.88      | `[placeholder]` |
-| PRPC040SACN            | Header pins (40-pin) | 2   | $1.68      | `[placeholder]` |
-
-**Subtotal:** $15.46
-
----
-
-## Receiver Boards
-
-| Part Name   | Description             | Qty | Total Cost | Link            |
-| ----------- | ----------------------- | --- | ---------- | --------------- |
-| PPPC041LFBN | 1×4 pin header sockets  | 16  | $6.08      | `[placeholder]` |
-| PRPC040SBAN | Right-angle header pins | —   | $0.00      | `[placeholder]` |
-| 26 AWG Wire | Stranded silicone wire  | 1   | $9.99      | `[placeholder]` |
-
-**Subtotal:** $16.07
-
----
-
-## PCB Fabrication
-
-| Part Name                  | Description   | Qty Used | Cost  | Link            |
-| -------------------------- | ------------- | -------- | ----- | --------------- |
-| Custom Main Controller PCB | JLCPCB, 5 pcs | 1 used   | $5.00 | `[placeholder]` |
-| MC Carrier PCB             | JLCPCB, 5 pcs | 1 used   | $5.00 | `[placeholder]` |
-| Dev Board Carrier PCB      | JLCPCB, 5 pcs | 1 used   | $5.00 | `[placeholder]` |
-| Button Module PCB          | JLCPCB, 5 pcs | 2 used   | $5.00 | `[placeholder]` |
-| Joystick Module PCB        | JLCPCB, 5 pcs | 2 used   | $5.00 | `[placeholder]` |
-| Receiver Module PCB        | JLCPCB, 5 pcs | 4 used   | $5.00 | `[placeholder]` |
-
-**Subtotal:** $30.00
-
----
-
-## Shell / Enclosure
-
-| Part Name        | Description                | Qty | Total Cost | Link            |
-| ---------------- | -------------------------- | --- | ---------- | --------------- |
-| PLA Filament     | 3D-printed shell material  | 1   | $2.50      | `[placeholder]` |
-| M3 Brass Inserts | Heat-set inserts (150 pcs) | 12  | $5.69      | `[placeholder]` |
-| M3 Screws        | Assorted screw kit         | 12  | $6.99      | `[placeholder]` |
-
-**Subtotal:** $15.18
-
----
 
 ## Total Summary
 
