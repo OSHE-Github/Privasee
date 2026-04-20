@@ -19,6 +19,9 @@ The current prototype includes:
 # Project Structure
   
 # Features
+## Infared Detection
+  
+
 ## Radio Frequency
   Radio Frequency (RF) was chosen due to increasing amount of cameras connecting to Wifi. While connected to WiFi, cameras can capture vidoo and trasmit it. This makes it detectable for as it 
   emits oscilalitng EWF waves that can be picked up. For this semester of the project, the prototype aims to target active cameras transmitting over 2.4GHz.
