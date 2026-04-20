@@ -22,11 +22,20 @@ The current prototype includes:
 ## Infared Detection
   <img width="400" height="255" alt="image" src="https://github.com/user-attachments/assets/41054f2c-8e92-46ab-bc5c-76b67a3bffbe" />
 
-  Most full color cameras use an Infared pulse to send out and recieve the capture of light. Using hte logic in the above diagram.
+Many imaging and sensing systems make use of infrared (IR) light for active detection. While standard full-color cameras rely on visible light, some systems emit IR pulses and measure their reflection to detect objects or changes in the environment. Other systems, such as thermal imaging, instead detect existing heat sources and do not require emitted signals.
 
-  The exception to this rule is things that check for another source, such as a heat map.
+This circuit focuses on detecting active IR pulses from an external source.
 
-  The circuit bellow is our soloution to detecting a pulse of light. This combined with a control loop allows us to read the IR pulse and output to a buzz when we detect one.
+Using the logic shown in the diagram above, the system monitors for the presence of an incoming IR signal and responds when a valid pulse is detected.
+
+The circuit below implements this detection mechanism. An IR sensor (photodiode or phototransistor) converts incoming infrared light into an electrical signal. This signal is then conditioned and amplified so it can be evaluated against a threshold.\
+
+When the detected signal exceeds this threshold:
+  -The circuit switches states
+  -A control response is triggered
+  -A buzzer is activated to indicate detection
+
+This design allows the system to reliably detect IR pulses and convert them into a clear, real-time output signal. When integrated with a larger control loop, it can be used as an input for more complex sensing or decision-making systems.
   
   <img width="576" height="395" alt="image" src="https://github.com/user-attachments/assets/b2910b5c-a2af-43c0-b7f1-1f32abce7de4" />
 
