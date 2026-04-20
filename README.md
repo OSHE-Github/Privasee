@@ -8,11 +8,9 @@ There are multiple different types of cameras. Detecting with them can be done i
 
 The current prototype includes:
   
-  *IR Detection
-  
-  *Mac Adress Reading 
-  
-  *RF detection (?)
+  - IR Detection
+  - Mac Adress Reading 
+  - RF detection (?)
 
   The system operates as a standalone or works with a laptop to detect cameras
 
