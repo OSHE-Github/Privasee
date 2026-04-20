@@ -20,7 +20,12 @@ The current prototype includes:
   
 # Features
 ## Infared Detection
+  <img width="400" height="255" alt="image" src="https://github.com/user-attachments/assets/41054f2c-8e92-46ab-bc5c-76b67a3bffbe" />
+
+  Most full color cameras use an Infared pulse to send out and recieve the capture of light.
   
+  <img width="576" height="395" alt="image" src="https://github.com/user-attachments/assets/b2910b5c-a2af-43c0-b7f1-1f32abce7de4" />
+
 
 ## Radio Frequency
   Radio Frequency (RF) was chosen due to increasing amount of cameras connecting to Wifi. While connected to WiFi, cameras can capture vidoo and trasmit it. This makes it detectable for as it 
@@ -96,4 +101,8 @@ A big issue with the RF side of this project revolved around a poor testing envi
 
 The current graph shows some post error data of the current prototype. While this does display a correlation of RF being detected, the gain actual gain is really low. This is mainly due to the BAT41 diode used which did rectify the voltage but resulted in a 0.3V drop. Due to passive antennas not outputting much voltage, there was not a large amount of rectified voltage to be amplified by the op amp. 
 
+# Refrences
+[1] “IR cameras - how they work and how to use them,” Sensorland.com, 2026. https://www.sensorland.com/HowPage105.html (accessed Apr. 20, 2026).
+
+‌
 
