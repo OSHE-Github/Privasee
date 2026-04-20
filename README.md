@@ -31,9 +31,9 @@ Using the logic shown in the diagram above, the system monitors for the presence
 The circuit below implements this detection mechanism. An IR sensor (photodiode or phototransistor) converts incoming infrared light into an electrical signal. This signal is then conditioned and amplified so it can be evaluated against a threshold.\
 
 When the detected signal exceeds this threshold:
-  -The circuit switches states
-  -A control response is triggered
-  -A buzzer is activated to indicate detection
+  - The circuit switches states
+  - A control response is triggered
+  - A buzzer is activated to indicate detection
 
 This design allows the system to reliably detect IR pulses and convert them into a clear, real-time output signal. When integrated with a larger control loop, it can be used as an input for more complex sensing or decision-making systems.
   
