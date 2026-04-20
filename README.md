@@ -5,6 +5,7 @@ There are multiple different types of cameras. Detecting with them can be done i
 <img width="252" height="228" alt="image" src="https://github.com/user-attachments/assets/1a711cd9-5822-4293-a837-f769003cfcc8" />
 
 # Current State
+<img width="801" height="538" alt="image" src="https://github.com/user-attachments/assets/a8111454-a73f-4e49-a4fb-f4e32a97b7c9" />
 
 The current prototype includes:
   
