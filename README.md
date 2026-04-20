@@ -22,7 +22,11 @@ The current prototype includes:
 ## Infared Detection
   <img width="400" height="255" alt="image" src="https://github.com/user-attachments/assets/41054f2c-8e92-46ab-bc5c-76b67a3bffbe" />
 
-  Most full color cameras use an Infared pulse to send out and recieve the capture of light.
+  Most full color cameras use an Infared pulse to send out and recieve the capture of light. Using hte logic in the above diagram.
+
+  The exception to this rule is things that check for another source, such as a heat map.
+
+  The circuit bellow is our soloution to detecting a pulse of light. This combined with a control loop allows us to read the IR pulse and output to a buzz when we detect one.
   
   <img width="576" height="395" alt="image" src="https://github.com/user-attachments/assets/b2910b5c-a2af-43c0-b7f1-1f32abce7de4" />
 
