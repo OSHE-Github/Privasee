@@ -38,7 +38,6 @@ This design allows the system to reliably detect IR pulses and convert them into
   
   <img width="576" height="395" alt="image" src="https://github.com/user-attachments/assets/b2910b5c-a2af-43c0-b7f1-1f32abce7de4" />
 
-
 ## Radio Frequency
   Radio Frequency (RF) was chosen due to increasing amount of cameras connecting to Wifi. While connected to WiFi, cameras can capture vidoo and trasmit it. This makes it detectable for as it 
   emits oscilalitng EWF waves that can be picked up. For this semester of the project, the prototype aims to target active cameras transmitting over 2.4GHz.
@@ -59,6 +58,10 @@ This design allows the system to reliably detect IR pulses and convert them into
   As mentioned earlier, amplification is needed to help create a more readable voltage. This it utilizing an LM358 Op amp in a non-inverting configuration. 
   
   <img width="743" height="458" alt="RF Results" src="https://github.com/user-attachments/assets/89dfeb80-50a0-4d19-bc6f-934acf357de4" />
+
+## MAC Address Reading
+Many hidden cameras will connect to the internet to upload the videos/pictures they capture. The ESP32's built in WiFi Promiscuous mode can be used to capture packet information and do further analysis on packets in the area. This system only uses information available in IEEE 802.11 packet headers, such as the sending MAC address and data segment length. The ESP32 will also take an RSSI (Received Signal Strength Indicator) measurement when the packet is received. This data helps seperate each packet by a unique device identifier, and enables tracking of the changing signal stregth over time.
+The ESP is unable to differentiate between device types by using this information, limiting this features ability to identify hidden cameras. Though this is the case, the MAC addresses and RSSI can be used to located devices in the area that are connected to the internet. 
 
 # Bill of Materials
 
