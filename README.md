@@ -14,8 +14,6 @@ The current prototype includes:
   - RF detection (?)
 
   The system operates as a standalone or works with a laptop to detect cameras
-
-# Project Structure
   
 # Features
 ## Infared Detection
