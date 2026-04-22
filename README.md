@@ -99,7 +99,8 @@ A big issue with the RF side of this project revolved around a poor testing envi
 The current graph shows some post error data of the current prototype. While this does display a correlation of RF being detected, the gain actual gain is really low. This is mainly due to the BAT41 diode used which did rectify the voltage but resulted in a 0.3V drop. Due to passive antennas not outputting much voltage, there was not a large amount of rectified voltage to be amplified by the op amp. 
 
 #Appendex
-Bom can be found here Documentation/BOM.md
+- [Bill of Materials (BOM)](Documentation/BOM.md)
+
 
 # Refrences
 [1] “IR cameras - how they work and how to use them,” Sensorland.com, 2026. https://www.sensorland.com/HowPage105.html (accessed Apr. 20, 2026).
