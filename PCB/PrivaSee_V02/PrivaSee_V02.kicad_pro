@@ -541,7 +541,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../Documents/PrivaSee_V02.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
