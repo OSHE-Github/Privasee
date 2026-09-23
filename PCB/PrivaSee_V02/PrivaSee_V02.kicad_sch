@@ -4675,7 +4675,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Snapeda:LQP02HQ9N1H02E"
+		(symbol "Snapeda:LQW15AN9N1H00D"
 			(pin_names
 				(offset 1.016)
 			)
@@ -4685,7 +4685,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
-				(at -10.16 7.62 0)
+				(at -7.62 5.08 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(effects
@@ -4695,8 +4695,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "LQP02HQ9N1H02E"
-				(at -10.16 5.08 0)
+			(property "Value" "LQW15AN9N1H00D"
+				(at -7.62 2.54 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(effects
@@ -4706,7 +4706,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Snapeda:IND_LQP02HQ9N1H02E"
+			(property "Footprint" "Snapeda:INDC1006X60N"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -4737,63 +4737,7 @@
 					)
 				)
 			)
-			(property "PARTREV" "N/A"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.32 mm"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "Murata"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "LQP02HQ9N1H02E_0_0"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "LQW15AN9N1H00D_0_0"
 				(arc
 					(start -5.08 0)
 					(mid -3.81 1.2645)
@@ -4842,21 +4786,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
+					(at -7.62 0 0)
+					(length 2.54)
 					(name ""
 						(effects
 							(font
@@ -4873,8 +4805,8 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
+					(at 7.62 0 180)
+					(length 2.54)
 					(name ""
 						(effects
 							(font
@@ -5835,12 +5767,6 @@
 		(uuid "5a9eb8c8-ea75-4854-aa3d-4b07d8ca9c96")
 	)
 	(junction
-		(at 190.5 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6821ecb8-aa3e-454d-8656-68399de5b4f8")
-	)
-	(junction
 		(at 217.17 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5857,6 +5783,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9547f599-7e33-402f-98c3-54eb7a66b347")
+	)
+	(junction
+		(at 190.5 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0caceac-f702-4a83-ba2c-18a5b347e99c")
 	)
 	(junction
 		(at 166.37 83.82)
@@ -6584,6 +6516,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 102.87) (xy 190.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ee8e6c-8fd5-4548-858a-5d006741ccc5")
+	)
+	(wire
+		(pts
 			(xy 129.54 63.5) (xy 210.82 63.5)
 		)
 		(stroke
@@ -7001,6 +6943,16 @@
 			(type default)
 		)
 		(uuid "fbb7cdbc-5c14-4509-b764-ed3f98c0d75c")
+	)
+	(wire
+		(pts
+			(xy 190.5 121.92) (xy 190.5 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc61b7f6-10b7-4347-8c67-cdeb364afcbc")
 	)
 	(wire
 		(pts
@@ -9863,130 +9815,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Snapeda:LQP02HQ9N1H02E")
-		(at 190.5 115.57 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d048f033-5a33-49f0-9825-072aa589e061")
-		(property "Reference" "L1"
-			(at 198.12 113.03 90)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LQP02HQ9N1H02E"
-			(at 198.882 116.332 90)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Snapeda:IND_LQP02HQ9N1H02E"
-			(at 184.15 115.57 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 115.57 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 115.57 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "L1"
-			(at 186.69 115.57 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 181.61 115.57 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.32 mm"
-			(at 184.15 115.57 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Murata"
-			(at 186.69 115.57 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a67d47b5-8118-4949-8163-3916d2c1b09e")
-		)
-		(pin "1"
-			(uuid "4f5f49f6-facb-4fab-939e-8085483f540a")
-		)
-		(instances
-			(project "PrivaSee_V02"
-				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Display_Character:RC1602A")
 		(at 120.65 134.62 270)
 		(unit 1)
@@ -10183,6 +10011,90 @@
 			(project "PrivaSee_V02"
 				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Snapeda:LQW15AN9N1H00D")
+		(at 190.5 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2482559-0b1e-45ac-9add-ce109bbe4b24")
+		(property "Reference" "L1"
+			(at 191.77 111.7599 90)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LQW15AN9N1H00D"
+			(at 191.77 114.2999 90)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Snapeda:INDC1006X60N"
+			(at 191.77 116.8399 90)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 114.3 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 114.3 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e74ab5f1-7118-4930-abe1-d9b77096bec6")
+		)
+		(pin "2"
+			(uuid "58009087-7678-4773-bc50-5f44b6b49543")
+		)
+		(instances
+			(project "PrivaSee_V02"
+				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
+					(reference "L1")
 					(unit 1)
 				)
 			)
