@@ -1502,268 +1502,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Potentiometer_US"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer_US"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Potentiometer, US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "POT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -4198,92 +3936,6 @@
 					)
 				)
 			)
-			(symbol "GJM1555C1H220FB01D_1_2"
-				(polyline
-					(pts
-						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.1148) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
 			(embedded_fonts no)
 		)
 		(symbol "Snapeda:GJM1555C1H4R7CB01D"
@@ -4446,92 +4098,6 @@
 				)
 				(pin unspecified line
 					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "GJM1555C1H4R7CB01D_1_2"
-				(polyline
-					(pts
-						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.1148) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 90)
 					(length 2.54)
 					(name ""
 						(effects
@@ -5356,128 +4922,6 @@
 					)
 				)
 			)
-			(symbol "RT0402BRE07100KL_1_2"
-				(polyline
-					(pts
-						(xy -1.27 8.255) (xy 1.27 9.525)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.715) (xy 1.27 6.985)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.175) (xy 1.27 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 3.175)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 9.525) (xy 0 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.985) (xy -1.27 8.255)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 4.445) (xy -1.27 5.715)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
 			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_Nidec_CAS-120A1"
@@ -5681,6 +5125,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 166.37 73.66)
@@ -5731,7 +5339,7 @@
 		(uuid "4124ad7c-7ae8-41f8-942d-9b172359d3a9")
 	)
 	(junction
-		(at 133.35 31.75)
+		(at 152.4 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "445ec493-7e87-4984-a6f7-45a15fefd9e0")
@@ -5803,7 +5411,7 @@
 		(uuid "b6824167-a641-4370-88e6-3e59c8dadbfc")
 	)
 	(junction
-		(at 130.81 31.75)
+		(at 152.4 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0b97e20-38f2-4aba-ac27-1e532cd43edb")
@@ -5825,6 +5433,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d66fd810-71da-4694-833a-5513c09f7249")
+	)
+	(junction
+		(at 82.55 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e074f9e5-297f-4f41-bcda-e62871dd1d86")
 	)
 	(junction
 		(at 190.5 128.27)
@@ -5936,16 +5550,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 35.56) (xy 129.54 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "163d3071-aa9f-4962-9848-c92bd6bcb796")
-	)
-	(wire
-		(pts
 			(xy 45.72 80.01) (xy 64.77 80.01)
 		)
 		(stroke
@@ -5953,6 +5557,16 @@
 			(type default)
 		)
 		(uuid "1a0cd78c-6351-4576-970f-eaa27c9a71e5")
+	)
+	(wire
+		(pts
+			(xy 127 25.4) (xy 127 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa094d8-8aed-4874-9ef5-447ea867bc8a")
 	)
 	(wire
 		(pts
@@ -6096,7 +5710,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 100.33) (xy 123.19 100.33)
+			(xy 44.45 100.33) (xy 138.43 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6106,7 +5720,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 31.75) (xy 133.35 35.56)
+			(xy 152.4 25.4) (xy 134.62 25.4)
 		)
 		(stroke
 			(width 0)
@@ -6116,7 +5730,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 97.79) (xy 138.43 92.71)
+			(xy 138.43 100.33) (xy 138.43 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6186,7 +5800,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 17.78) (xy 123.19 31.75)
+			(xy 166.37 15.24) (xy 152.4 15.24)
 		)
 		(stroke
 			(width 0)
@@ -6203,16 +5817,6 @@
 			(type default)
 		)
 		(uuid "4681e7db-284e-4060-b311-7c30493f52a7")
-	)
-	(wire
-		(pts
-			(xy 64.77 152.4) (xy 78.74 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48238c50-b4dc-4cc3-9131-07a72ec34ebe")
 	)
 	(wire
 		(pts
@@ -6266,16 +5870,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 97.79) (xy 133.35 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57d84706-738d-4d78-a97e-fbc65e49c202")
-	)
-	(wire
-		(pts
 			(xy 45.72 80.01) (xy 45.72 162.56)
 		)
 		(stroke
@@ -6323,6 +5917,16 @@
 			(type default)
 		)
 		(uuid "62e24e4d-076c-40c3-b9fc-0a1a10e90f86")
+	)
+	(wire
+		(pts
+			(xy 82.55 148.59) (xy 82.55 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6387542b-f042-4ec8-b029-04c93efeaabc")
 	)
 	(wire
 		(pts
@@ -6406,7 +6010,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 17.78) (xy 123.19 17.78)
+			(xy 166.37 19.05) (xy 166.37 15.24)
 		)
 		(stroke
 			(width 0)
@@ -6416,7 +6020,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 31.75) (xy 130.81 35.56)
+			(xy 152.4 22.86) (xy 156.21 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6433,6 +6037,26 @@
 			(type default)
 		)
 		(uuid "7b0fd810-8337-4481-9b92-a0609d042bc4")
+	)
+	(wire
+		(pts
+			(xy 78.74 152.4) (xy 82.55 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a36a50-948f-42e5-8702-a5d1a90291f3")
+	)
+	(wire
+		(pts
+			(xy 64.77 82.55) (xy 34.29 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860d2c92-3896-464b-acbb-e56c848ad1fd")
 	)
 	(wire
 		(pts
@@ -6483,6 +6107,16 @@
 			(type default)
 		)
 		(uuid "9138c430-81e8-4861-8070-31dff23e7c46")
+	)
+	(wire
+		(pts
+			(xy 82.55 152.4) (xy 86.36 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93049241-e59a-45f4-9f5f-55e6da531562")
 	)
 	(wire
 		(pts
@@ -6596,6 +6230,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 25.4) (xy 134.62 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3eef23f-bec2-4612-82a1-9407bccff3e5")
+	)
+	(wire
+		(pts
 			(xy 115.57 57.15) (xy 118.11 57.15)
 		)
 		(stroke
@@ -6676,16 +6320,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 35.56) (xy 134.62 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbf9a58d-4052-4a8c-91f4-8b22201be92a")
-	)
-	(wire
-		(pts
 			(xy 198.12 102.87) (xy 201.93 102.87)
 		)
 		(stroke
@@ -6696,7 +6330,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 17.78) (xy 140.97 17.78)
+			(xy 166.37 29.21) (xy 166.37 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6706,7 +6340,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 31.75) (xy 133.35 31.75)
+			(xy 152.4 33.02) (xy 152.4 25.4)
 		)
 		(stroke
 			(width 0)
@@ -6726,6 +6360,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 152.4) (xy 97.79 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceaea0ec-33d3-49c5-8518-b325006ce36d")
+	)
+	(wire
+		(pts
 			(xy 217.17 97.79) (xy 217.17 100.33)
 		)
 		(stroke
@@ -6733,6 +6377,16 @@
 			(type default)
 		)
 		(uuid "d5209623-d9b7-4f70-aeff-22248d691ba7")
+	)
+	(wire
+		(pts
+			(xy 67.31 152.4) (xy 71.12 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97f8ced-65c4-40e2-942a-6a20e1c3d38b")
 	)
 	(wire
 		(pts
@@ -6786,16 +6440,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 152.4) (xy 86.36 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de3f5b96-97d1-439a-8b0b-4afb1cc13e8e")
-	)
-	(wire
-		(pts
 			(xy 177.8 113.03) (xy 179.07 113.03)
 		)
 		(stroke
@@ -6803,6 +6447,16 @@
 			(type default)
 		)
 		(uuid "defb803d-a762-4941-968d-cb73679672eb")
+	)
+	(wire
+		(pts
+			(xy 127 22.86) (xy 152.4 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e254ead8-7108-49dd-9858-5409c829c36e")
 	)
 	(wire
 		(pts
@@ -6896,7 +6550,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 31.75) (xy 130.81 31.75)
+			(xy 152.4 15.24) (xy 152.4 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6976,7 +6630,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 17.78) (xy 140.97 31.75)
+			(xy 166.37 33.02) (xy 152.4 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7312,6 +6966,30 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 34.29 92.71 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "998938b4-e3a1-474f-91a5-8612ab365a99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.29 99.5657 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "5V"
 		(shape input)
 		(at 71.12 119.38 180)
@@ -7338,7 +7016,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 64.77 152.4 180)
+		(at 67.31 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7348,7 +7026,7 @@
 		)
 		(uuid "a33e5775-bc53-4854-8afc-c8df90fb57c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.9143 152.4 0)
+			(at 60.4543 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7381,30 +7059,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 64.77 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c8931455-facb-4d83-9f27-eeb3f022ce41")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.9143 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -7627,121 +7281,6 @@
 			(project "PrivaSee_V02"
 				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_US")
-		(at 82.55 152.4 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2c6a6876-e283-4f70-9a12-f69b6017fa2b")
-		(property "Reference" "RV1"
-			(at 82.55 154.686 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 82.55 156.464 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
-			(at 82.55 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Potentiometer, US symbol"
-			(at 82.55 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 82.55 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "POT"
-			(at 82.55 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 82.55 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7195e3e0-ba5b-4668-9a12-390240f710c9")
-		)
-		(pin "2"
-			(uuid "b3909ad6-801d-4559-b8c2-06c5b769fca6")
-		)
-		(pin "3"
-			(uuid "6bd691d8-61cf-40c7-b1bd-f9bc19249e9f")
-		)
-		(instances
-			(project "PrivaSee_V02"
-				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
-					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -8071,6 +7610,88 @@
 			(project "PrivaSee_V02"
 				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 34.29 87.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5629086f-3e6f-4b1c-8eff-274d1850f973")
+		(property "Reference" "SW2"
+			(at 35.56 86.3599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 35.56 88.8999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
+			(at 29.21 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 34.29 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "933aeece-dc3c-4a44-9782-3279f3c75f5f")
+		)
+		(pin "1"
+			(uuid "d72a9155-bd53-4c41-b1a8-1f3b1c82f80d")
+		)
+		(instances
+			(project "PrivaSee_V02"
+				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -8629,7 +8250,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 133.35 26.67 270)
+		(at 157.48 25.4 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8639,7 +8260,7 @@
 		(dnp no)
 		(uuid "80830180-0fa0-4c18-89a7-3469203474b9")
 		(property "Reference" "J2"
-			(at 134.62 28.702 0)
+			(at 155.448 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8649,7 +8270,7 @@
 			)
 		)
 		(property "Value" "Batt_Solder_Point"
-			(at 132.08 24.892 90)
+			(at 159.258 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8659,7 +8280,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 133.35 26.67 0)
+			(at 157.48 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8670,7 +8291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 26.67 0)
+			(at 157.48 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8681,7 +8302,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 133.35 26.67 0)
+			(at 157.48 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8701,88 +8322,6 @@
 			(project "PrivaSee_V02"
 				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Nidec_CAS-120A1")
-		(at 128.27 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "824eb417-90ab-45ce-9783-1b2c84ff5db0")
-		(property "Reference" "SW1"
-			(at 128.524 95.504 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "(Generic toggle state switch)"
-			(at 119.38 107.696 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-			(at 128.27 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 128.27 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 128.27 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "88908cd5-903e-4df8-9b59-a43b082e4129")
-		)
-		(pin "3"
-			(uuid "018008d3-bebd-4470-bde6-d6b4afad6f90")
-		)
-		(pin "1"
-			(uuid "cebb1ad0-55a2-4c2d-8c02-780de4a00887")
-		)
-		(instances
-			(project "PrivaSee_V02"
-				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -9364,8 +8903,8 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 132.08 17.78 90)
-		(mirror x)
+		(at 166.37 24.13 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9375,7 +8914,7 @@
 		(dnp no)
 		(uuid "9cb8e752-a64d-4952-801a-bba527d86ace")
 		(property "Reference" "BT1"
-			(at 129.54 14.478 90)
+			(at 169.672 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9385,7 +8924,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 136.144 14.478 90)
+			(at 169.672 28.194 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9395,7 +8934,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_Keystone_2462_2xAA"
-			(at 130.556 17.78 90)
+			(at 166.37 22.606 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9406,7 +8945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.556 17.78 90)
+			(at 166.37 22.606 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9417,7 +8956,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 132.08 17.78 0)
+			(at 166.37 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9428,7 +8967,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 132.08 17.78 0)
+			(at 166.37 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9439,7 +8978,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 132.08 17.78 0)
+			(at 166.37 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9450,7 +8989,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 132.08 17.78 0)
+			(at 166.37 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9470,6 +9009,85 @@
 			(project "PrivaSee_V02"
 				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 74.93 152.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5bad0a5-5a7a-43c8-873a-d2141621c4da")
+		(property "Reference" "R10"
+			(at 75.184 155.702 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 75.184 158.242 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 75.184 151.384 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 74.93 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f44f537a-caa7-41a8-99bf-28211492a2e8")
+		)
+		(pin "1"
+			(uuid "2fd09ba2-7333-4cc5-bf8a-1297f6528f6c")
+		)
+		(instances
+			(project "PrivaSee_V02"
+				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9809,6 +9427,85 @@
 			(project "PrivaSee_V02"
 				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 90.17 152.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ceee99a4-ae69-4de6-81a1-c4b809232111")
+		(property "Reference" "R9"
+			(at 90.424 155.702 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 90.424 158.242 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 90.424 151.384 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 90.17 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "89b21d56-f1bc-45ad-bde5-9922cb2ec75b")
+		)
+		(pin "1"
+			(uuid "3ae4aa6c-6fff-45ac-8721-6b546d4129b8")
+		)
+		(instances
+			(project "PrivaSee_V02"
+				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10174,6 +9871,89 @@
 			(project "PrivaSee_V02"
 				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 127 30.48 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef603e9e-38d4-42c3-b862-9f1220d0f985")
+		(property "Reference" "SW1"
+			(at 122.174 30.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 119.888 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 137.16 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 134.62 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 127 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "83a302b4-3d13-4421-94ea-b33bcf8718d3")
+		)
+		(pin "3"
+			(uuid "9e11fe9b-45fe-47c4-909c-2d74d83cc040")
+		)
+		(pin "1"
+			(uuid "e46a9c0b-5397-4f9d-9e5f-443bdc4a814a")
+		)
+		(instances
+			(project "PrivaSee_V02"
+				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
