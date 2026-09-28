@@ -5539,6 +5539,12 @@
 		(uuid "68b2442e-7edc-4d8c-a814-53c395a08b1d")
 	)
 	(junction
+		(at 44.45 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72be8fdd-6f57-4d22-8501-687e32440981")
+	)
+	(junction
 		(at 176.53 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5549,6 +5555,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9547f599-7e33-402f-98c3-54eb7a66b347")
+	)
+	(junction
+		(at 34.29 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac1ec799-1560-4126-b016-0c96dec12f70")
 	)
 	(junction
 		(at 190.5 102.87)
@@ -5874,6 +5886,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 77.47) (xy 34.29 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "392f8736-e970-467b-b8a1-a4915649effc")
+	)
+	(wire
+		(pts
 			(xy 180.34 135.89) (xy 180.34 138.43)
 		)
 		(stroke
@@ -6074,6 +6096,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 82.55) (xy 64.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e9b51fc-8ad6-4454-b7f7-3ff9034aedc9")
+	)
+	(wire
+		(pts
 			(xy 46.99 62.23) (xy 64.77 62.23)
 		)
 		(stroke
@@ -6184,6 +6216,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 90.17) (xy 34.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75016707-473f-4937-b772-d6e3ee6d0c64")
+	)
+	(wire
+		(pts
 			(xy 166.37 19.05) (xy 166.37 15.24)
 		)
 		(stroke
@@ -6221,16 +6263,6 @@
 			(type default)
 		)
 		(uuid "84a36a50-948f-42e5-8702-a5d1a90291f3")
-	)
-	(wire
-		(pts
-			(xy 64.77 82.55) (xy 34.29 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "860d2c92-3896-464b-acbb-e56c848ad1fd")
 	)
 	(wire
 		(pts
@@ -6544,6 +6576,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 57.15) (xy 44.45 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ee6488-b851-4d0a-9bca-22a1092be448")
+	)
+	(wire
+		(pts
 			(xy 152.4 33.02) (xy 152.4 25.4)
 		)
 		(stroke
@@ -6571,6 +6613,16 @@
 			(type default)
 		)
 		(uuid "ceaea0ec-33d3-49c5-8518-b325006ce36d")
+	)
+	(wire
+		(pts
+			(xy 34.29 67.31) (xy 34.29 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d368f046-6a69-49dc-9340-65b8f5621fe7")
 	)
 	(wire
 		(pts
@@ -6791,6 +6843,16 @@
 			(type default)
 		)
 		(uuid "f9fd0d6d-18c0-475e-ba9e-7988b11517e8")
+	)
+	(wire
+		(pts
+			(xy 34.29 82.55) (xy 34.29 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa680133-faab-47e5-b6f8-851ee03fac94")
 	)
 	(wire
 		(pts
@@ -7917,7 +7979,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 34.29 87.63 90)
+		(at 34.29 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7925,10 +7987,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5629086f-3e6f-4b1c-8eff-274d1850f973")
 		(property "Reference" "SW2"
-			(at 35.56 86.3599 90)
+			(at 35.56 71.1199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7939,7 +8000,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 35.56 88.8999 90)
+			(at 35.56 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7950,7 +8011,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-			(at 29.21 87.63 0)
+			(at 29.21 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7961,7 +8022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 87.63 0)
+			(at 29.21 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7972,7 +8033,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 34.29 87.63 0)
+			(at 34.29 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9627,6 +9688,85 @@
 			(project "PrivaSee_V02"
 				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 34.29 87.63 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5cecebc-5318-4e86-95fe-b4970391ca29")
+		(property "Reference" "R12"
+			(at 30.226 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 32.258 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 34.29 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 34.29 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74da1f49-96a4-4a03-9cd3-3e4a4aabb89c")
+		)
+		(pin "2"
+			(uuid "a9b1178b-dce9-4a25-88b3-3f9cebc2c825")
+		)
+		(instances
+			(project "PrivaSee_V02"
+				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
+					(reference "R12")
 					(unit 1)
 				)
 			)
