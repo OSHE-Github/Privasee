@@ -539,7 +539,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "./",
-      "plot": "",
+      "plot": "/home/jrmooren/Documents/",
       "specctra_dsn": "",
       "step": "../../../Documents/PrivaSee_V02.step",
       "vrml": ""
