@@ -5437,6 +5437,12 @@
 		(uuid "4c0a2274-4441-4526-a4da-5d56317f4283")
 	)
 	(junction
+		(at 227.33 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52b30a47-6195-4b6e-b240-619d5afbb06f")
+	)
+	(junction
 		(at 134.62 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5489,12 +5495,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac1ec799-1560-4126-b016-0c96dec12f70")
-	)
-	(junction
-		(at 227.33 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0caceac-f702-4a83-ba2c-18a5b347e99c")
 	)
 	(junction
 		(at 166.37 83.82)
@@ -5795,6 +5795,16 @@
 			(type default)
 		)
 		(uuid "392f8736-e970-467b-b8a1-a4915649effc")
+	)
+	(wire
+		(pts
+			(xy 228.6 102.87) (xy 227.33 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ed6e58-43d1-42d5-b7e4-8f20105c7072")
 	)
 	(wire
 		(pts
@@ -6518,13 +6528,13 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 102.87) (xy 238.76 102.87)
+			(xy 236.22 102.87) (xy 238.76 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf969d7e-80fb-44d0-bdce-3b562a3ed245")
+		(uuid "be27c917-fe36-440f-b45b-443c2c99378c")
 	)
 	(wire
 		(pts
@@ -10742,7 +10752,7 @@
 	)
 	(symbol
 		(lib_id "Snapeda:GJM1555C1HR22BB01D")
-		(at 229.87 102.87 0)
+		(at 231.14 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10753,7 +10763,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe5b9bf9-cfca-4d91-b0e5-7ce79c393d75")
 		(property "Reference" "C1"
-			(at 231.14 93.98 0)
+			(at 232.41 93.98 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -10763,7 +10773,7 @@
 			)
 		)
 		(property "Value" "GJM1555C1HR22BB01D"
-			(at 231.14 96.52 0)
+			(at 232.41 96.52 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10774,7 +10784,7 @@
 			)
 		)
 		(property "Footprint" "Snapeda:CAPC1005X55N"
-			(at 231.14 99.06 0)
+			(at 232.41 99.06 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10785,7 +10795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 102.87 0)
+			(at 231.14 102.87 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10796,7 +10806,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 102.87 0)
+			(at 231.14 102.87 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
