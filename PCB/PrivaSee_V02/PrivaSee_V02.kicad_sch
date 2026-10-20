@@ -4274,9 +4274,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Snapeda:GJM1555C1H4R7CB01D"
+		(symbol "Snapeda:GJM1555C1H4R7BB01D"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4284,26 +4284,28 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 3.81 3.81 0)
+				(at 0 3.8109 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "GJM1555C1H4R7CB01D"
-				(at 3.81 -3.81 0)
+			(property "Value" "GJM1555C1H4R7BB01D"
+				(at 0 -5.0885 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Snapeda:G-155_MUR-L"
+			(property "Footprint" "Snapeda:CAPC1005X55N"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -4311,9 +4313,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Datasheet" "GJM1555C1H4R7CB01D"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -4333,119 +4336,61 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "GJM1555C1H4R7CB01D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "G-155_MUR G-155_MUR-M G-155_MUR-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GJM1555C1H4R7CB01D_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.4798 0)
-					)
+			(symbol "GJM1555C1H4R7BB01D_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
 					(stroke
-						(width 0.2032)
+						(width 0.1)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.4798 -1.905) (xy 3.4798 1.905)
-					)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
 					(stroke
-						(width 0.2032)
+						(width 0.1)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 4.1148 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 -1.905) (xy 4.1148 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
+				(pin passive line
+					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 7.62 0 180)
+				(pin passive line
+					(at 5.08 0 180)
 					(length 2.54)
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -5699,12 +5644,6 @@
 		(uuid "4ab112fc-337c-4a50-a268-a575aa40f875")
 	)
 	(junction
-		(at 154.94 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53aa5e78-7dde-4ea3-9014-094a3ef1ed38")
-	)
-	(junction
 		(at 213.36 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5747,16 +5686,16 @@
 		(uuid "68b2442e-7edc-4d8c-a814-53c395a08b1d")
 	)
 	(junction
-		(at 154.94 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "690a08b5-38a3-497b-9861-674d5eef04dd")
-	)
-	(junction
 		(at 44.45 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72be8fdd-6f57-4d22-8501-687e32440981")
+	)
+	(junction
+		(at 162.56 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "921b5a4e-7d53-4aec-81fd-6a4edd202f7f")
 	)
 	(junction
 		(at 125.73 50.8)
@@ -5848,6 +5787,12 @@
 		(color 0 0 0 0)
 		(uuid "ea666b9b-031c-4d6e-9034-180013807abd")
 	)
+	(junction
+		(at 162.56 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f82e4269-18b7-440d-919d-6f3b689b366d")
+	)
 	(wire
 		(pts
 			(xy 57.15 48.26) (xy 57.15 57.15)
@@ -5870,13 +5815,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 160.02) (xy 154.94 162.56)
+			(xy 162.56 160.02) (xy 162.56 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0621b50d-f11d-47b1-a0aa-b0f38989a68e")
+		(uuid "07577ec6-e9a7-4388-9d8d-1320f2b15ee9")
 	)
 	(wire
 		(pts
@@ -6200,6 +6145,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 160.02) (xy 167.64 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fccafd9-92be-4bed-86e5-e441f6d56764")
+	)
+	(wire
+		(pts
 			(xy 134.62 50.8) (xy 134.62 55.88)
 		)
 		(stroke
@@ -6260,7 +6215,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 152.4) (xy 154.94 160.02)
+			(xy 162.56 152.4) (xy 162.56 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6287,16 +6242,6 @@
 			(type default)
 		)
 		(uuid "58fe4b57-0a7d-422c-9636-b480919ae1a1")
-	)
-	(wire
-		(pts
-			(xy 160.02 144.78) (xy 167.64 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a93c3e5-a7ba-4d5e-b2d8-7a5484221891")
 	)
 	(wire
 		(pts
@@ -6387,16 +6332,6 @@
 			(type default)
 		)
 		(uuid "6b5c2b5b-322c-457d-b62f-412b7620f026")
-	)
-	(wire
-		(pts
-			(xy 154.94 162.56) (xy 177.8 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c765a2b-f306-4ecd-958d-46f9390a8d1d")
 	)
 	(wire
 		(pts
@@ -6660,7 +6595,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 162.56) (xy 154.94 162.56)
+			(xy 93.98 162.56) (xy 162.56 162.56)
 		)
 		(stroke
 			(width 0)
@@ -6757,6 +6692,16 @@
 			(type default)
 		)
 		(uuid "a8189a14-f379-498e-bba2-54de4650edba")
+	)
+	(wire
+		(pts
+			(xy 162.56 162.56) (xy 177.8 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd45cf5-9f20-4570-8cf7-3b3fe3222232")
 	)
 	(wire
 		(pts
@@ -6877,16 +6822,6 @@
 			(type default)
 		)
 		(uuid "d5209623-d9b7-4f70-aeff-22248d691ba7")
-	)
-	(wire
-		(pts
-			(xy 154.94 160.02) (xy 160.02 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7ce0c37-a14a-4e9e-985e-c38a43bfc6de")
 	)
 	(wire
 		(pts
@@ -8676,10 +8611,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6bc00db8-c52f-4f49-ab87-5ce85e1b6567")
 		(property "Reference" "D1"
-			(at 205.74 96.52 0)
+			(at 205.486 98.552 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8689,7 +8623,7 @@
 			)
 		)
 		(property "Value" "BAT_15-02EL_E6327"
-			(at 205.74 99.06 0)
+			(at 206.248 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9883,7 +9817,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ae74ff25-fd28-4029-8a85-582f5f883a05")
 		(property "Reference" "D2"
 			(at 215.9 113.0299 90)
@@ -9897,7 +9830,7 @@
 			)
 		)
 		(property "Value" "BAT_15-02EL_E6327"
-			(at 215.9 115.5699 90)
+			(at 204.216 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10322,86 +10255,6 @@
 			(project "PrivaSee_V02"
 				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Snapeda:GJM1555C1H4R7CB01D")
-		(at 215.9 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cd39f7ab-43cc-4fc4-9027-e5567d61449d")
-		(property "Reference" "C2"
-			(at 220.218 99.06 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "GJM1555C1H4R7CB01D"
-			(at 221.996 100.33 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Snapeda:G-155_MUR-L"
-			(at 219.71 96.52 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "GJM1555C1H4R7CB01D"
-			(at 219.71 99.06 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 102.87 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ef71c69-543f-4c25-8b3b-ca6fab58977b")
-		)
-		(pin "2"
-			(uuid "ff6b062b-c104-472f-91e2-440e28ce4a8b")
-		)
-		(instances
-			(project "PrivaSee_V02"
-				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10932,7 +10785,7 @@
 	)
 	(symbol
 		(lib_id "Snapeda:3310Y-001-103L")
-		(at 160.02 152.4 270)
+		(at 167.64 152.4 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10942,7 +10795,7 @@
 		(dnp no)
 		(uuid "e568cd90-9f02-4839-83cd-84c099c95e21")
 		(property "Reference" "R11"
-			(at 151.13 146.05 0)
+			(at 158.75 146.05 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -10952,7 +10805,7 @@
 			)
 		)
 		(property "Value" "3310Y-001-103L"
-			(at 171.45 152.4 0)
+			(at 179.07 152.4 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10963,7 +10816,7 @@
 			)
 		)
 		(property "Footprint" "Snapeda:TRIM_3310Y-001-103L"
-			(at 168.91 152.4 0)
+			(at 176.53 152.4 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10974,7 +10827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.972 150.876 0)
+			(at 164.592 150.876 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10985,7 +10838,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.226 151.638 0)
+			(at 164.846 151.638 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10996,7 +10849,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 166.37 152.4 0)
+			(at 173.99 152.4 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -11007,7 +10860,7 @@
 			)
 		)
 		(property "MANUFACTURER" "BOURNS"
-			(at 163.83 152.4 0)
+			(at 171.45 152.4 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -11030,6 +10883,86 @@
 			(project "PrivaSee_V02"
 				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Snapeda:GJM1555C1H4R7BB01D")
+		(at 218.44 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb774e78-d343-4f6c-85a4-27d6bd908146")
+		(property "Reference" "C2"
+			(at 219.456 100.076 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GJM1555C1H4R7BB01D"
+			(at 219.71 96.52 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Snapeda:CAPC1005X55N"
+			(at 219.71 99.06 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 102.87 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 102.87 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "882a171b-fff8-4fcd-9d5c-b0c968cb0442")
+		)
+		(pin "1"
+			(uuid "f8b07dc2-02d0-4c98-8282-feacb0cac0a0")
+		)
+		(instances
+			(project "PrivaSee_V02"
+				(path "/e2eea558-d7b1-4123-919c-3783d093c9eb"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -11216,10 +11149,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fe5b9bf9-cfca-4d91-b0e5-7ce79c393d75")
 		(property "Reference" "C1"
-			(at 231.14 93.98 0)
+			(at 233.172 100.076 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
