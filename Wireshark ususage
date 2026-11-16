@@ -1,0 +1,24 @@
+Run Wireshark
+
+Start capturing wireshark
+Click the blue shark
+
+
+Go to statistics  -> Io graph
+
+Change from packets/tick to bis/sec
+
+Sepeaing upload / download
+Upload :: ip.src == <Your-Local-IP>
+Download :: ip.dst == <Your-Local-IP>
+
+
+
+Getting your ip source
+
+Open cmd line (windows key -> cmd)
+Run :: nslookup example.com
+Run :: ipconfig
+
+IPCONFig give you your local machine
+Nslookup gives you the whole mahine.
