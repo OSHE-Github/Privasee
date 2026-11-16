@@ -2,6 +2,7 @@ Run Wireshark
 
 Start capturing wireshark
 Click the blue shark
+<img width="390" height="175" alt="image" src="https://github.com/user-attachments/assets/4dcbabcd-1f5d-42b9-9aa4-9d5cdfbd7a66" />
 
 
 Go to statistics  -> Io graph
